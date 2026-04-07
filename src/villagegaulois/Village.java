@@ -38,15 +38,15 @@ public class Village {
 			gaulois = chef;
 		} else {
 			for (int i = 0; i < nbVillageois; i++) {
-				Gaulois habitant = villageois[i];
-				if (habitant.getNom().equals(nomGaulois)) {
-					gaulois = habitant;
+				if (nomGaulois.equals(villageois[i].getNom())) {
+					gaulois = villageois[i];
 				}
 			}
 		}
 		return gaulois;
 	}
 
+	
 	public String[] donnerVillageois() {
 		String[] donnees = new String[nbVillageois + 1];
 		donnees[0] = chef.getNom();

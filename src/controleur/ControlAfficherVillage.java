@@ -20,4 +20,9 @@ public class ControlAfficherVillage {
 	public int donnerNbEtals() {
 		return village.donnerNbEtal();
 	}
+
+	public static boolean isVendeur(String nomVendeur) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

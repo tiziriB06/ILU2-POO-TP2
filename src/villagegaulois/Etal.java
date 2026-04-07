@@ -50,17 +50,7 @@ public class Etal {
 		return quantiteAcheter;
 	}
 
-	public void libererEtal() {
-		etalOccupe = false;
-	}
-
-	/**
-	 * 
-	 * @return donneesVente est un tableau de chaine contenant [0] : un boolean
-	 *         indiquant si l'étal est occupé [1] : nom du vendeur [2] : produit
-	 *         vendu [2] : quantité de produit à vendre au début du marché [4] :
-	 *         quantité de produit vendu
-	 */
+	
 	public String[] etatEtal() {
 		String[] donneesVente = new String[5];
 		donneesVente[0] = String.valueOf(etalOccupe);
@@ -73,4 +63,10 @@ public class Etal {
 		return donneesVente;
 	}
 
+	public String[] libererEtal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 }
