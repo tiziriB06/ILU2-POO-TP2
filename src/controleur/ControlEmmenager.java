@@ -27,4 +27,14 @@ public class ControlEmmenager {
 		village.ajouterHabitant(gaulois);
 	}
 
+	public static boolean verifierIdentite(String nomVendeur) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static int prendreEtal(String nomVendeur, String produit, int nbProduit) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

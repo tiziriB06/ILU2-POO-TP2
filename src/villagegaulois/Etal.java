@@ -68,5 +68,10 @@ public class Etal {
 		return null;
 	}
 
+	public void retirerProduit(int quantite2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
